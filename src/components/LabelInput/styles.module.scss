@@ -1,0 +1,14 @@
+@import "src/styles/variables";
+
+.valid {
+  color: $color_success;
+}
+
+.notValid {
+  color: $color_warning;
+}
+
+.warning {
+  font-size: 14px;
+  color: $color_warning;
+}

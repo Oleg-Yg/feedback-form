@@ -1,0 +1,39 @@
+@import "src/styles/variables";
+
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+
+  .label {
+    display: flex;
+    font-size: $font_size_h2;
+    padding: $padding;
+    border: 1px solid gray;
+    border-radius: $border_radius_min;
+    margin-bottom: 15px;
+    outline: none;
+  }
+
+  .input {
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-right: 5px;
+  }
+
+  .textarea {
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-right: 5px;
+    height: 100px;
+    resize: none;
+  }
+
+  .warning {
+    color: $color_warning;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
